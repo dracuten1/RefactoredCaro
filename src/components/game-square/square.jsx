@@ -6,15 +6,14 @@ class Square extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: null,
         };
     }
 
     render() {
-        //console.log(this.props.value)
-        //console.log(this.props.squareObj);
-        const value = this.props.value;
-        const style = this.props.isSelected ? {
+        // console.log(this.props.value)
+        // console.log(this.props.squareObj);
+        const { value, isSelected, squareObj } = this.props;
+        const style = isSelected ? {
             'backgroundColor': 'green'
         } : null;
         let mark = '';
@@ -28,10 +27,10 @@ class Square extends React.Component {
             <SquareContext.Consumer>
                 {context =>
                     <button
-                        
+                        type="button"
                         className="square"
                         style={style}
-                        onClick={() => context.onSquareClick(this.props.squareObj)}
+                        onClick={() => context.onSquareClick(squareObj)}
                     >
                         {mark}
                     </button>

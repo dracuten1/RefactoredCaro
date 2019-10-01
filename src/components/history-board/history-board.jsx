@@ -1,18 +1,19 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './history-board.css';
+
 const historyBoard = props => {
 
     let arr = [];
-    for (let i = 0; i <= props.step; i++) {
+    for (let i = 0; i <= props.step; i += 1) {
         arr = [...arr, i];
     }
-    console.log(arr);
+    // console.log(arr);
     return arr.map(step => {
-        const style = props.current===step ? {
+        const style = props.current === step ? {
             'backgroundColor': 'green'
         } : null;
         return <li>
-            <button className="button" style={style} key={step} onClick={() => props.backToStep(step)}>Jump to {step}</button>
+            <button className="button" type="button" style={style} key={step} onClick={() => props.backToStep(step)}>Jump to {step}</button>
         </li>
     }
 
