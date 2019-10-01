@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RefactoredCaro/static/css/main.4b98e4b8.chunk.css",
+    "main.js": "/RefactoredCaro/static/js/main.2458a2a7.chunk.js",
+    "main.js.map": "/RefactoredCaro/static/js/main.2458a2a7.chunk.js.map",
+    "runtime~main.js": "/RefactoredCaro/static/js/runtime~main.3d1320e8.js",
+    "runtime~main.js.map": "/RefactoredCaro/static/js/runtime~main.3d1320e8.js.map",
+    "static/js/2.dc6d6334.chunk.js": "/RefactoredCaro/static/js/2.dc6d6334.chunk.js",
+    "static/js/2.dc6d6334.chunk.js.map": "/RefactoredCaro/static/js/2.dc6d6334.chunk.js.map",
+    "index.html": "/RefactoredCaro/index.html",
+    "precache-manifest.67572c9d3f6d1cb48743d7f1ca1ee957.js": "/RefactoredCaro/precache-manifest.67572c9d3f6d1cb48743d7f1ca1ee957.js",
+    "service-worker.js": "/RefactoredCaro/service-worker.js",
+    "static/css/main.4b98e4b8.chunk.css.map": "/RefactoredCaro/static/css/main.4b98e4b8.chunk.css.map"
+  }
+}
